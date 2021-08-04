@@ -20,7 +20,7 @@ public class Connect extends JFrame implements ActionListener{
     private final JTextField IPAddress;
     private final JTextField Port;
     private final JButton Start;
-    private Socket socket;
+    public Socket socket;
 
     public Connect(){
         Start = new JButton("Start");
